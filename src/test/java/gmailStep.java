@@ -13,7 +13,7 @@ public class gmailStep {
 	WebDriver driver;
 	@Given("^user navigates to GoogleMail website$")
 	public void user_navigates_to_GoogleMail_website() throws Throwable {
-	   System.out.println("333navigates_to_GoogleMail_website");
+	   System.out.println("33344navigates_to_GoogleMail_website");
 	   System.out.println(System.getProperty("user.dir"));
 	   CreateDriverInstance driverInstance=new CreateDriverInstance();
 	   driver=driverInstance.generateDriverInstance();
