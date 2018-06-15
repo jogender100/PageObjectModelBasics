@@ -13,3 +13,8 @@ Feature: GmailLogin
     And user entered the password
     And user click Login button
     Then user should be successfully logged in
+    
+    Scenario: In order to verify login to Wiki
+    Given user navigates to Wiki website
+    When user select the Language Hindi
+    Then Search page is displayed
